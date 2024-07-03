@@ -3,4 +3,5 @@ configuration:
   dev:
     paths:
     - .tanzu/config/
+    - .tanzu\config/
 kind: TanzuConfig

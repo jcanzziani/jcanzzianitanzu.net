@@ -2,11 +2,11 @@ apiVersion: apps.tanzu.vmware.com/v1
 kind: ContainerApp
 metadata:
   creationTimestamp: null
-  name: jcanzziani-tanzu
+  name: jcanzzianitanzu
 spec:
   build:
     buildpacks: {}
-    path: ../..
+    path: ..\..
   ports:
   - name: main
     port: 8080
